@@ -196,6 +196,8 @@ public class SocialMain {
                 this.getActiveUser().getFollowerList().addAll(addFriendsList);
                 System.out.println("Has añadido a " + addFriendsList.get(0).getName() + " como amigo");
             }
+
+            System.out.println("");
         }
 
     public void showFriends() {
